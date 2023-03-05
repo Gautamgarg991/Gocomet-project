@@ -1,0 +1,25 @@
+.product{
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.product__info{
+    align-items: center;
+}
+.product__price{
+    margin-top: 5px;
+}
+.product__rating{
+    display: flex;
+}
+.product > img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.product > button{
+    background-color: pink;
+    border: 1px solid;
+}
